@@ -1,7 +1,7 @@
 {
   "name": "malpeza",
   "version": "0.0.1",
-  "description": "",
+  "description": "Parse Light Signals and Send Post Request",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
