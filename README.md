@@ -1,12 +1,6 @@
 # Malpez
 Malpez allows a user to update their facebook status with a flashlight. The app, using a micropocessor called a [Tessel](http://www.tessel.io), receives a signal from an external ambient module that detects light. The Tessel receives the signal by sampling light strength every 10th of a second to distinguish between bursts and sustianed flashes. These signals are then parsed by morse code and sent over wifi to a application that manages authentication, or user login, with facebook.
 
-##install
-
-npm install
-cp config.js.example to config.js
-update config.js with secret key
-
 ## Morse Code Alphabet
 A : .-
 B : -...
@@ -34,11 +28,6 @@ W : .--
 X : -..-
 Y : -.--
 Z : --..
-
-#Commands
-
-delete letter: -------------------
-send message: ....................
 
 #Generating Morse Code with Light
 
